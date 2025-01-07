@@ -1,10 +1,13 @@
-let countryName = 'Nigeria';
-let continentName = 'Africa';
-let population = '200000000';
-console.log(countryName);
-console.log(continentName);
-console.log(population);
-let isIsland = 'Badagry'
-let language = ''
-console.log(isIsland);
-console.log(language);
+const country = 'USA';
+const continent = 'North America';
+const population = 331;
+const language = 'English';
+//concatenation strings//
+const description = country + ' is in ' + continent + ', and its ' + population + ' million people speak ' + language;
+console.log(description);
+//Template literals//
+
+const description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
+console.log(description);
+
+
