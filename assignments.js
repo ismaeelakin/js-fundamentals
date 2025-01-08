@@ -1,3 +1,4 @@
+ 
 const country = 'USA';
 const continent = 'North America';
 const population = 331;
@@ -9,5 +10,6 @@ console.log(description);
 
 const description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
 console.log(description);
+
 
 
