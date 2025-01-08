@@ -50,6 +50,7 @@
 //x --;
 //console.log(x);
 //comparison operators
+/*
 const now = 2037;
 const ageJohn = now - 1991;
 const ageSarah = now - 2018;
@@ -60,5 +61,12 @@ x = y = 25 - 10 - 5; // x = y = 10
 console.log(x,y);
  const averageAge = (ageJohn + ageSarah) /2
  console.log(ageJohn, ageSarah, averageAge);
- 
+ */
+
+const firstName = "jonas";
+const job = 'teacher';
+const birthYear = 1991;
+const year = 2037;
+const jonas = "i'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!';
+console.log(jonas);
 
