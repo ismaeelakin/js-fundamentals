@@ -125,10 +125,10 @@ console.log(`string
 
 //Truthy and falsy values
 // 5 falsy values; 0, null, undefined, NaN, ''
-console.log(Boolean (0));
-console.log(Boolean (undefined));
-console.log(Boolean ('jonas'));
-console.log(Boolean ({}));
+// console.log(Boolean (0));
+// console.log(Boolean (undefined));
+// console.log(Boolean ('jonas'));
+// console.log(Boolean ({}));
 
 
 // const money = 0;
@@ -139,13 +139,13 @@ console.log(Boolean ({}));
 //   console.log('You should get a job!')
 // };
 
-const money = 100;
-if (money) {
-  console.log("Don't spend it all");
+// const money = 100;
+// if (money) {
+//   console.log("Don't spend it all");
 
-} else {
-  console.log('You should get a job!')
-};
+// } else {
+//   console.log('You should get a job!')
+// };
 
 
 // let height;
@@ -154,10 +154,34 @@ if (money) {
 // } else {
 //   console.log('Height is Undefined')
 // }
-
+/*
 let height = 123;
 if (height) {
   console.log('YAY! Height is Defined')
 } else {
   console.log('Height is Undefined')
 };
+*/
+// Equality operators
+// const age = 18;
+// if (age === 18) console.log('You just become an adult :D (strict)');
+// if (age == 18) console.log(' You just become an adult :D (loose)');
+
+
+// const age = '18';
+// if (age === 18) console.log('You just become an adult :D (strict)');
+// if (age == 18) console.log(' You just become an adult :D (loose)');
+// const age = '18';
+// if (age == 18) console.log('You just become an adult :D (strict)');
+// else {(' You just become an adult :D (loose)')};
+// const age = 18;
+// if (age == 18) console.log('You just become an adult :D (strict)');
+// else {(' You just become an adult :D (loose)')};
+
+const age = '18';
+if (age === 18) console.log('You just become an adult :D (strict)');
+
+ if (age == 18) console.log(' You just become an adult :D (loose)');
+
+ // note when writing equality operators avoid using the loose operator bcos it can bring alot bugs and confussion into ur code
+ 
