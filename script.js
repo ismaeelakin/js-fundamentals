@@ -79,26 +79,35 @@ console.log(`string
   with multiple
   lines`);
   */
-const age = 15;
+// const age = 15;
 
 
-if (age >= 18) {
-console.log('Sarah can start driving licence 🚘🚜');
+// if (age >= 18) {
+// console.log('Sarah can start driving licence 🚘🚜');
 
-} else {
-  // note that else block is actually optional
-  const yearsLeft = 18 - age;
-  console.log (`Sarah is too young. Wait another ${yearsLeft} years :)`);
+// } else {
+//   // note that else block is actually optional
+//   const yearsLeft = 18 - age;
+//   console.log (`Sarah is too young. Wait another ${yearsLeft} years :)`);
 
-}
-const birthYear = 2012;
-let century;
+// }
+// const birthYear = 2012;
+// let century;
 
-if (birthYear <= 2000) {
-  century = 20; // If birthYear is less than or equal to 2000, set century to 20
-} else {
-  century = 21; // Otherwise, set century to 21
-}
+// if (birthYear <= 2000) {
+//   century = 20; // If birthYear is less than or equal to 2000, set century to 20
+// } else {
+//   century = 21; // Otherwise, set century to 21
+// }
 
-console.log(century); // Print the century to the console
+// console.log(century); // Print the century to the console
+
+// Type conversion and coersion
+const inputYear = '1991';
+console.log(Number (inputYear), inputYear);
+console.log(Number (inputYear) + 18);
+
+console.log(Number ('jonas'));
+console.log(typeof NaN);
+console.log(String (23), 23);
 
