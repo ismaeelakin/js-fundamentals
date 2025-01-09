@@ -75,3 +75,7 @@ console.log(`just a regular strings....`);
 console.log('string with \n\
   multiple \n\
 lines');
+console.log(`string
+  with multiple
+  lines`);
+  
