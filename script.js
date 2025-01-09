@@ -184,4 +184,25 @@ if (age === 18) console.log('You just become an adult :D (strict)');
  if (age == 18) console.log(' You just become an adult :D (loose)');
 
  // note when writing equality operators avoid using the loose operator bcos it can bring alot bugs and confussion into ur code
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ const favourite = Number (prompt ("what's your favourite number?"));
+ console.log(favourite);
+ console.log(typeof favourite);
+
+ if (favourite === 23) //{22 === 23 -> FALSE}
+ console.log('cool ! 23 is an amazing number!');
+ else if (favourite === 7)
+  console.log('7 is also a cool number')
+else (console.log ('Number is not 23 or 7'))
