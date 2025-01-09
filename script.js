@@ -91,3 +91,14 @@ console.log('Sarah can start driving licence 🚘🚜');
   console.log (`Sarah is too young. Wait another ${yearsLeft} years :)`);
 
 }
+const birthYear = 2012;
+let century;
+
+if (birthYear <= 2000) {
+  century = 20; // If birthYear is less than or equal to 2000, set century to 20
+} else {
+  century = 21; // Otherwise, set century to 21
+}
+
+console.log(century); // Print the century to the console
+
