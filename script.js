@@ -148,3 +148,16 @@ if (money) {
 };
 
 
+// let height;
+// if (height) {
+//   console.log('YAY! Height is Defined')
+// } else {
+//   console.log('Height is Undefined')
+// }
+
+let height = 123;
+if (height) {
+  console.log('YAY! Height is Defined')
+} else {
+  console.log('Height is Undefined')
+};
