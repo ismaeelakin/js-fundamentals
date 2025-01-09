@@ -118,4 +118,8 @@ console.log('23' - '10' - '3');
 console.log('23' + '10' + '3');
 console.log(23 + 10 + 3);
 console.log('23' * '2');
+console.log(23 / 2);
+let n = '1' + 1; // 11
+n = n - 1; // here the string 11 is converted to a number and calculated
+console.log(n);
 
