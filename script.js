@@ -104,22 +104,47 @@ console.log(`string
 
 // Type conversion and coercion
 // type conversion
-const inputYear = '1991';
-console.log(Number (inputYear), inputYear);
-console.log(Number (inputYear) + 18);
+// const inputYear = '1991';
+// console.log(Number (inputYear), inputYear);
+// console.log(Number (inputYear) + 18);
 
-console.log(Number ('jonas'));
-console.log(typeof NaN);
-console.log(String (23), 23);
+// console.log(Number ('jonas'));
+// console.log(typeof NaN);
+// console.log(String (23), 23);
 
-//type coercion
-console.log(' I am ' + 23 + 'years old');
-console.log('23' - '10' - '3');
-console.log('23' + '10' + '3');
-console.log(23 + 10 + 3);
-console.log('23' * '2');
-console.log(23 / 2);
-let n = '1' + 1; // 11
-n = n - 1; // here the string 11 is converted to a number and calculated
-console.log(n);
+// //type coercion
+// console.log(' I am ' + 23 + 'years old');
+// console.log('23' - '10' - '3');
+// console.log('23' + '10' + '3');
+// console.log(23 + 10 + 3);
+// console.log('23' * '2');
+// console.log(23 / 2);
+// let n = '1' + 1; // 11
+// n = n - 1; // here the string 11 is converted to a number and calculated
+// console.log(n);
+
+//Truthy and falsy values
+// 5 falsy values; 0, null, undefined, NaN, ''
+console.log(Boolean (0));
+console.log(Boolean (undefined));
+console.log(Boolean ('jonas'));
+console.log(Boolean ({}));
+
+
+// const money = 0;
+// if (money) {
+//   console.log("Don't spend it all");
+
+// } else {
+//   console.log('You should get a job!')
+// };
+
+const money = 100;
+if (money) {
+  console.log("Don't spend it all");
+
+} else {
+  console.log('You should get a job!')
+};
+
 
