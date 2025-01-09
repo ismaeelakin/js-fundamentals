@@ -209,3 +209,6 @@ else if (favourite === 9)
   console.log('9 is also a cool number')
 
 else (console.log ('Number is not 23 or 7 or 9'));
+
+//the opposite != loose !== strict types
+if (favourite !== 23) console.log('why not 23?');
