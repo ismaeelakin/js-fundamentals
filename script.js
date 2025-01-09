@@ -62,7 +62,7 @@ console.log(x,y);
  const averageAge = (ageJohn + ageSarah) /2
  console.log(ageJohn, ageSarah, averageAge);
  */
-
+/*
 const firstName = "jonas";
 const job = 'teacher';
 const birthYear = 1991;
@@ -78,4 +78,11 @@ lines');
 console.log(`string
   with multiple
   lines`);
-  
+  */
+const age = 19;
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+console.log('Sarah can start driving licence 🚘🚜');
+
+}
