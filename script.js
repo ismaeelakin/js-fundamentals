@@ -196,7 +196,7 @@ if (age === 18) console.log('You just become an adult :D (strict)');
 
 
 
-
+/*
  const favourite = Number (prompt ("what's your favourite number?"));
  console.log(favourite);
  console.log(typeof favourite);
@@ -212,3 +212,16 @@ else (console.log ('Number is not 23 or 7 or 9'));
 
 //the opposite != loose !== strict types
 if (favourite !== 23) console.log('why not 23?');
+*/
+//Logical Operators
+
+const hasDriversLicense = true // A
+const hasGoogVision = true // B
+console.log(hasDriversLicense && hasGoogVision);
+console.log(hasDriversLicense || hasGoogVision);
+console.log(!hasDriversLicense);
+
+if (hasDriversLicense && hasGoogVision) {console.log ('Sarah is able to drive!')}
+else {
+  console.log ('Someone else should drive....');
+}
