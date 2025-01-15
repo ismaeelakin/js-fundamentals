@@ -226,13 +226,15 @@ console.log(!hasDriversLicense);
 //   console.log ('Someone else should drive....');
 // }
 
-const isTired = true; // c
-console.log (hasDriversLicense && hasGoodVision && isTired);
+// const isTired = true; // c
+// console.log (hasDriversLicense && hasGoodVision && isTired);
 
 
-if (hasDriversLicense && hasGoodVision && !isTired) {
-  console.log('Sarah is able to drive!');
+// if (hasDriversLicense && hasGoodVision && !isTired) {
+//   console.log('Sarah is able to drive!');
 
-} else {
-  console.log("Someone else should drive......");
-}
+// } else {
+//   console.log("Someone else should drive......");
+// }
+
+

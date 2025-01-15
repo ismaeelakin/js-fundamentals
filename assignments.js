@@ -28,20 +28,31 @@ const markHigherBMI = BMIMark > BMIJohn;
 
 console.log(BMIMark, BMIJohn, markHigherBMI);
 */
-const massMark = 95;
-const heightMark = 1.88;
-const massJohn = 85;
-const heightJohn = 1.76;
-const BMIMark = massMark / heightMark ** 2;
-const BMIJohn = massJohn / (heightJohn * heightJohn);
-console.log(BMIMark, BMIJohn);
+// const massMark = 95;
+// const heightMark = 1.88;
+// const massJohn = 85;
+// const heightJohn = 1.76;
+// const BMIMark = massMark / heightMark ** 2;
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
+// console.log(BMIMark, BMIJohn);
 
-if (BMIMark > BMIJohn)
-{`Mark's ${BMIMark} BMI is higher than john's ${BMIJohn} !`}
-else {console.log(`john's ${BMIJohn} BMI is higher than Mark's ${BMIMark}!`)};
-  
-
+// if (BMIMark > BMIJohn)
+// {`Mark's ${BMIMark} BMI is higher than john's ${BMIJohn} !`}
+// else {console.log(`john's ${BMIJohn} BMI is higher than Mark's ${BMIMark}!`)};
 
 
+//Code challenage
 
+const scoreDolphins = (96+ 108+ 89) / 3;
+const scoreKoalas = (88+ 91+ 110) / 3;
+console.log (scoreDolphins, scoreKoalas);
+
+
+if (scoreDolphins > scoreKoalas) {
+  console.log('Dolphins wins the trophy 🏆');
+} else  if ( scoreKoalas > scoreDolphins) {
+  console.log('Kaolas will win the trophy 🏆');
+} else if (scoreDolphins === scoreKoalas) {
+  console.log ('Both win the trophy!');
+}
 
