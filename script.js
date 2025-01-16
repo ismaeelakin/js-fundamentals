@@ -178,10 +178,10 @@ if (height) {
 // if (age == 18) console.log('You just become an adult :D (strict)');
 // else {(' You just become an adult :D (loose)')};
 
-const age = '18';
-if (age === 18) console.log('You just become an adult :D (strict)');
+// const age = '18';
+// if (age === 18) console.log('You just become an adult :D (strict)');
 
- if (age == 18) console.log(' You just become an adult :D (loose)');
+//  if (age == 18) console.log(' You just become an adult :D (loose)');
 
  // note when writing equality operators avoid using the loose operator bcos it can bring alot bugs and confussion into ur code
 
@@ -215,11 +215,11 @@ if (favourite !== 23) console.log('why not 23?');
 */
 //Logical Operators
 
-const hasDriversLicense = true // A
-const hasGoodVision = true // B
-console.log(hasDriversLicense && hasGoodVision);
-console.log(hasDriversLicense || hasGoodVision);
-console.log(!hasDriversLicense);
+// const hasDriversLicense = true // A
+// const hasGoodVision = true // B
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(!hasDriversLicense);
 
 // if (hasDriversLicense && hasGoodVision) {console.log ('Sarah is able to drive!')}
 // else {
@@ -265,3 +265,22 @@ default:
   console.log('Not a valid day!');
 
 }
+
+
+if (day === 'monday') {
+  console.log('plan course structure');
+  console.log('Go to coding meetup');
+
+}
+else if (day === 'tuesday')
+{
+  console.log('prepare theory videos');
+}
+else if (day === 'wednesday' || 'thursday'
+){
+  console.log ('write code example' );
+}
+else if (day === 'friday') {
+  console.log('Record videos');
+}
+else {'Not a valid code'}
