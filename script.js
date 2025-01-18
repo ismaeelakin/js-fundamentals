@@ -239,6 +239,8 @@ if (favourite !== 23) console.log('why not 23?');
 
 
 // SWITCH STATEMENT USED IN PLACE OF IF ELSE
+
+/*
 const day = 'monday';
 
 switch (day) {
@@ -284,3 +286,19 @@ else if (day === 'friday') {
   console.log('Record videos');
 }
 else {'Not a valid code'}
+
+*/
+//Statements and expressions
+3 + 4
+1991
+true && false && !false
+
+
+if (23 > 10) {
+const str = '23 is bigger';
+
+}
+
+const me = 'Jonas'; 
+
+console.log("i'm  ${2037 - 1991} years old ${me}")
