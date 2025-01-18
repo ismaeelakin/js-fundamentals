@@ -309,8 +309,8 @@ const age = 23
 // age >= 18 ? console.log(' I like to drink wine 🍷') :
 // console.log('i like to drink water 💧');
 
-// const drink = age >=18 ? 'wine 🍷' : 'water 💧';
-// console.log(drink);
+const drink = age >=18 ? 'wine 🍷' : 'water 💧';
+console.log(drink);
 
 let drink2;
 if (age >= 18) {
@@ -322,3 +322,4 @@ if (age >= 18) {
 console.log(drink2);
 // tenary operators usage in template literal
 console.log(`i like to drink ${age >= 18 ? 'wine 🍷' : 'water 💧'}`);
+// note that tenary operator is not taught to be a replacement of if/else statement
