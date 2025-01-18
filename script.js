@@ -322,4 +322,4 @@ if (age >= 18) {
 console.log(drink2);
 // tenary operators usage in template literal
 console.log(`i like to drink ${age >= 18 ? 'wine 🍷' : 'water 💧'}`);
-// note that tenary operator is not taught to be a replacement of if/else statement
+// note that tenary operator is not taught to be a replacement of if/else statement, if else still continue to be useful in bigger tons of code
