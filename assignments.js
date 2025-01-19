@@ -57,18 +57,23 @@ console.log(BMIMark, BMIJohn, markHigherBMI);
 // }
 
 
-const scoreDolphins = (97+ 112+ 101) / 3;
-const scoreKoalas = (109+ 95+ 123) / 3;
-console.log (scoreDolphins, scoreKoalas);
+// const scoreDolphins = (97+ 112+ 101) / 3;
+// const scoreKoalas = (109+ 95+ 123) / 3;
+// console.log (scoreDolphins, scoreKoalas);
 
 
-if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
-  console.log('Dolphins wins the trophy 🏆');
-} else  if ( scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
-  console.log('Kaolas will win the trophy 🏆');
-}
-  else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
-    console.log('Both win the trophy 🏆');
-  } else {
-    console.log('No one wins the trophy 🥹');
-  } 
+// if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+//   console.log('Dolphins wins the trophy 🏆');
+// } else  if ( scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+//   console.log('Kaolas will win the trophy 🏆');
+// }
+//   else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
+//     console.log('Both win the trophy 🏆');
+//   } else {
+//     console.log('No one wins the trophy 🥹');
+//   } 
+
+// Code challenge
+const bill = 40;
+const tip = bill <= 300 && bill >= 50 ?  bill * 0.15 : bill * 0.20;
+console.log(`The bill was ${bill}, the tip was ${tip} , and the total value ${bill + tip}`);
