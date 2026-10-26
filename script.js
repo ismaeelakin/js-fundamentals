@@ -1,4 +1,3 @@
-
 //let js = 'boring';
 //if (js === 'boring') alert('javascript is FUN!');
 //console.log(42+20+8-10);
@@ -13,7 +12,6 @@
 
 //javascriptIsFun = 'Yes!';
 //console.log(typeof javascriptIsFun);
-
 
 //let year;
 //console.log(year);
@@ -81,7 +79,6 @@ console.log(`string
   */
 // const age = 15;
 
-
 // if (age >= 18) {
 // console.log('Sarah can start driving licence 🚘🚜');
 
@@ -130,7 +127,6 @@ console.log(`string
 // console.log(Boolean ('jonas'));
 // console.log(Boolean ({}));
 
-
 // const money = 0;
 // if (money) {
 //   console.log("Don't spend it all");
@@ -146,7 +142,6 @@ console.log(`string
 // } else {
 //   console.log('You should get a job!')
 // };
-
 
 // let height;
 // if (height) {
@@ -167,7 +162,6 @@ if (height) {
 // if (age === 18) console.log('You just become an adult :D (strict)');
 // if (age == 18) console.log(' You just become an adult :D (loose)');
 
-
 // const age = '18';
 // if (age === 18) console.log('You just become an adult :D (strict)');
 // if (age == 18) console.log(' You just become an adult :D (loose)');
@@ -183,18 +177,7 @@ if (height) {
 
 //  if (age == 18) console.log(' You just become an adult :D (loose)');
 
- // note when writing equality operators avoid using the loose operator bcos it can bring alot bugs and confussion into ur code
-
-
-
-
-
-
-
-
-
-
-
+// note when writing equality operators avoid using the loose operator bcos it can bring alot bugs and confussion into ur code
 
 /*
  const favourite = Number (prompt ("what's your favourite number?"));
@@ -229,14 +212,12 @@ if (favourite !== 23) console.log('why not 23?');
 // const isTired = true; // c
 // console.log (hasDriversLicense && hasGoodVision && isTired);
 
-
 // if (hasDriversLicense && hasGoodVision && !isTired) {
 //   console.log('Sarah is able to drive!');
 
 // } else {
 //   console.log("Someone else should drive......");
 // }
-
 
 // SWITCH STATEMENT USED IN PLACE OF IF ELSE
 
@@ -293,33 +274,31 @@ else {'Not a valid code'}
 // 1991
 // true && false && !false
 
-
 // if (23 > 10) {
 // const str = '23 is bigger';
 
 // }
 
-// const me = 'Jonas'; 
+// const me = 'Jonas';
 
 // console.log("i'm  ${2037 - 1991} years old ${me}")
 
-
 // conditional (ternary) operators
-const age = 23
+const age = 23;
 // age >= 18 ? console.log(' I like to drink wine 🍷') :
 // console.log('i like to drink water 💧');
 
-const drink = age >=18 ? 'wine 🍷' : 'water 💧';
+const drink = age >= 18 ? "wine 🍷" : "water 💧";
 console.log(drink);
 
 let drink2;
 if (age >= 18) {
-  drink2 = 'wine 🍷';}
-  else {
-    drink2 = 'water 💧';
-  }
+  drink2 = "wine 🍷";
+} else {
+  drink2 = "water 💧";
+}
 
 console.log(drink2);
 // tenary operators usage in template literal
-console.log(`i like to drink ${age >= 18 ? 'wine 🍷' : 'water 💧'}`);
+console.log(`i like to drink ${age >= 18 ? "wine 🍷" : "water 💧"}`);
 // note that tenary operator is not taught to be a replacement of if/else statement but only for quick decision, if else still continue to be useful in bigger tons of code

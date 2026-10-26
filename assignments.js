@@ -40,13 +40,11 @@ console.log(BMIMark, BMIJohn, markHigherBMI);
 // {`Mark's ${BMIMark} BMI is higher than john's ${BMIJohn} !`}
 // else {console.log(`john's ${BMIJohn} BMI is higher than Mark's ${BMIMark}!`)};
 
-
 // //Code challenage
 
 // const scoreDolphins = (96+ 108+ 89) / 3;
 // const scoreKoalas = (88+ 91+ 110) / 3;
 // console.log (scoreDolphins, scoreKoalas);
-
 
 // if (scoreDolphins > scoreKoalas) {
 //   console.log('Dolphins wins the trophy 🏆');
@@ -56,11 +54,9 @@ console.log(BMIMark, BMIJohn, markHigherBMI);
 //   console.log ('Both win the trophy!');
 // }
 
-
 // const scoreDolphins = (97+ 112+ 101) / 3;
 // const scoreKoalas = (109+ 95+ 123) / 3;
 // console.log (scoreDolphins, scoreKoalas);
-
 
 // if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 //   console.log('Dolphins wins the trophy 🏆');
@@ -71,9 +67,11 @@ console.log(BMIMark, BMIJohn, markHigherBMI);
 //     console.log('Both win the trophy 🏆');
 //   } else {
 //     console.log('No one wins the trophy 🥹');
-//   } 
+//   }
 
 // Code challenge
 const bill = 40;
-const tip = bill <= 300 && bill >= 50 ?  bill * 0.15 : bill * 0.20;
-console.log(`The bill was ${bill}, the tip was ${tip} , and the total value ${bill + tip}`);
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+console.log(
+  `The bill was ${bill}, the tip was ${tip} , and the total value ${bill + tip}`,
+);
