@@ -3,68 +3,134 @@
 }
 body {
   margin: 0;
-  background: #eceff0;
-  color: #1e3546;
+  background: #ffffff;
+  color: #172e52;
   font:
-    16px/1.6 Verdana,
+    16px/1.5 Arial,
+    Helvetica,
     sans-serif;
 }
 main {
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
-  padding: 35px 24px;
+  padding: 22px 30px;
 }
-header,
-footer {
+header {
+  background: #174c9b;
+  color: white;
+  padding: 14px 18px;
   font-size: 12px;
-  border-bottom: 2px solid #254b63;
-  padding-bottom: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 h1 {
   font:
-    44px/1.2 Georgia,
-    serif;
+    900 38px/1.15 "Arial Black",
+    Arial,
+    sans-serif;
+  letter-spacing: -1px;
+  max-width: 720px;
+  margin: 22px 0 14px;
+}
+main > p {
+  max-width: 740px;
 }
 form {
   display: grid;
-  gap: 12px;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 22px;
+  border-top: 3px solid #174c9b;
+  padding-top: 18px;
+}
+label {
+  font-size: 13px;
+  font-weight: bold;
+}
+label[for="values"],
+textarea {
+  grid-column: 1 / -1;
+}
+label[for="operation"] {
+  grid-column: 1;
 }
 textarea,
-select,
-button {
-  font: inherit;
+select {
+  width: 100%;
+  background: #f5f8fd;
+  color: #172e52;
+  border: 1px solid #8ca3c5;
   padding: 12px;
-  border: 1px solid #7c8b94;
+  font:
+    15px/1.4 "Courier New",
+    monospace;
   border-radius: 0;
 }
 textarea {
-  height: 110px;
+  height: 80px;
   resize: vertical;
 }
+select {
+  grid-column: 1;
+}
 button {
+  grid-column: 2;
+  align-self: end;
   justify-self: start;
-  background: #254b63;
+  font:
+    bold 14px Arial,
+    sans-serif;
+  border: 0;
+  border-radius: 0;
+  padding: 14px 22px;
+  background: #174c9b;
   color: white;
   cursor: pointer;
+}
+button:hover {
+  background: #113c7c;
 }
 pre {
   white-space: pre-wrap;
   overflow-wrap: anywhere;
-  background: white;
-  border-left: 4px solid #a85a2a;
-  padding: 24px;
-  min-height: 90px;
-  font-size: 15px;
+  background: #edf3fc;
+  border: 1px solid #a6bcdf;
+  border-left: 6px solid #174c9b;
+  padding: 16px 24px;
+  min-height: 85px;
+  font:
+    15px/1.5 "Courier New",
+    monospace;
+  margin: 12px 0;
+}
+#status {
+  margin: 15px 0 8px;
+  font-size: 13px;
 }
 a {
-  color: #254b63;
+  color: #174c9b;
 }
 footer {
-  border-bottom: 0;
-  border-top: 1px solid #7c8b94;
-  padding-top: 22px;
+  margin-top: 20px;
+  border-top: 1px solid #8ca3c5;
+  padding-top: 15px;
+  font-size: 12px;
+  color: #425879;
 }
 :focus-visible {
-  outline: 3px solid #a85a2a;
+  outline: 3px solid #b76613;
   outline-offset: 3px;
+}
+@media (max-width: 550px) {
+  main {
+    padding: 16px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  form {
+    grid-template-columns: 1fr;
+  }
+  form > * {
+    grid-column: 1 !important;
+  }
 }

@@ -2,7 +2,7 @@
 
 JavaScript learning notes with a small interactive number exercise. Enter your own values to compare a summary, unique values, numeric sorting and a map operation.
 
-![Interactive number exercise](docs/exercise.png)
+![Interactive number exercise](docs/array-identity.png)
 
 [Open the live demo](https://ismaeelakin.github.io/js-fundamentals/)
 
@@ -25,13 +25,7 @@ The page loads only `practice.js`. The original notes in `script.js` and `assign
 
 ## Architecture
 
-```mermaid
-flowchart LR
-  Input[Number text] --> Validate[Tokenize and validate]
-  Validate --> Transform[Selected array operation]
-  Transform --> Check[Reject nonfinite arithmetic]
-  Check --> Output[Render result as text]
-```
+![Architecture](docs/architecture-identity.svg)
 
 Input text is split into tokens, converted to numbers and validated before an array operation runs. Results are rendered as text. There are no packages, network calls, accounts or saved data.
 
