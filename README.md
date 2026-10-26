@@ -6,13 +6,32 @@ JavaScript learning notes with a small interactive number exercise. Enter your o
 
 [Open the live demo](https://ismaeelakin.github.io/js-fundamentals/)
 
-## Try the exercise
+## Features
+
+- Summary statistics, duplicate removal, numeric sorting and doubling.
+- Custom comma- or whitespace-separated input.
+- Validation for empty, nonnumeric and oversized input.
+- Explicit arithmetic overflow errors.
+
+## Tech stack
+
+HTML, CSS and JavaScript. No packages or server-side services.
+
+## Setup
 
 Run `python -m http.server 8093 --bind 127.0.0.1` from this repository. Open <http://127.0.0.1:8093/>.
 
 The page loads only `practice.js`. The original notes in `script.js` and `assignments.js` remain available for reading and are not executed on page load. The companion accepts up to 1,000 finite numbers and reports invalid input and arithmetic overflow.
 
-## Structure
+## Architecture
+
+```mermaid
+flowchart LR
+  Input[Number text] --> Validate[Tokenize and validate]
+  Validate --> Transform[Selected array operation]
+  Transform --> Check[Reject nonfinite arithmetic]
+  Check --> Output[Render result as text]
+```
 
 Input text is split into tokens, converted to numbers and validated before an array operation runs. Results are rendered as text. There are no packages, network calls, accounts or saved data.
 
